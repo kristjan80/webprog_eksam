@@ -1,0 +1,97 @@
+html{
+    margin-top: 0;
+}
+
+footer {
+    background-color: rgb(197, 246, 244);
+    bottom: 0;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+header {
+    background-color: rgb(197, 246, 244);
+    height: auto;
+    width: 100%;
+
+}
+
+.main-title {
+    font-size: 60px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.content-body {
+    background-color: rgb(237, 245, 246);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    min-width: 400px;
+    padding: 0;
+    
+    
+}
+
+.info-window {
+    background: rgb(180,230,228);
+    background: radial-gradient(circle, rgb(197, 246, 244) 20%, rgb(53, 168, 153) 100%);
+    border: 1px solid black;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0 ,0 , 120);
+    display: inline-block;
+    height: auto;
+    margin: 60px;
+    min-height: 300px;
+    padding: 30px;
+    padding-right: 200px;
+    width: 300px;
+    
+}
+
+
+
+.img-zoom {
+    height: 200px;
+    width: 200px; 
+    position: relative;
+    padding: 10px;
+  }
+  
+  
+.img-zoom img {
+    transition: transform .5s ease;
+    transform-origin: top left;
+    
+    
+}
+  
+.img-zoom:hover img {
+    transform: scale(2);
+   
+}
+
+.email-text {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.position-text {
+    font-weight: 1000;
+    font-size: 24px;
+}
+
+.worker-name-text {
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+
+.worker-title {
+    text-align: center;
+    font-size: 52px;
+    font-weight: bold;
+}
